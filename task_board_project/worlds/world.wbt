@@ -9,7 +9,6 @@ EXTERNPROTO "../protos/TaskBoard.proto"
 EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/franka_emika/panda/protos/Panda.proto"
 
 WorldInfo {
-  basicTimeStep 16
 }
 Viewpoint {
   orientation -0.11690567390428867 -0.4000232100181153 0.909018423826375 5.661087836439167
