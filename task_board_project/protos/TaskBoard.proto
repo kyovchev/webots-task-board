@@ -1696,14 +1696,5 @@ PROTO TaskBoard [
         }
       ]
     }
-    physics Physics {
-      density -1
-      mass 7.616942
-      centerOfMass [ -0.001178 -0.000039 -0.039935 ]
-      inertiaMatrix [
-        1.891974e-02 4.489451e-02 5.580905e-02
-        -3.070393e-04 -7.637555e-04 8.271697e-05
-      ]
-    }
   }
 }
