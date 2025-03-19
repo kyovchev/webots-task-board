@@ -9,6 +9,7 @@ worlds/.*.jpg
 __pycache__/
 *.py[cod]
 *$py.class
+*.exe
 
 # C extensions
 *.so
