@@ -21,7 +21,7 @@
 
 #define TIME_STEP 32
 
-static float positions[3][3] = {{0.50, -2.2, 2.56}, {0.21, -2.2, 2.56}, {0, -1.770800, 1.57}};
+static float positions[5][3] = {{0.50, -2.2, 2.56}, {0.41, -2.2, 2.56}, {0.31, -2.2, 2.56}, {0.21, -2.2, 2.56}, {0, -1.770800, 1.57}};
 
 enum Joints { JOINT1, JOINT2, JOINT3, JOINT4, JOINT5, JOINT6, JOINT7, FINGER };
 enum Blocks { BLOCK1, BLOCK2, BLOCK3 };
@@ -31,7 +31,7 @@ static WbDeviceTag motors[9];
 
 void hand_control(int command) {
   // based on the state, opens or closes the gripper
-  wb_motor_set_position(motors[FINGER], (command == OPEN_HAND) ? 0.04 : 0.011);
+  wb_motor_set_position(motors[FINGER], (command == OPEN_HAND) ? 0.04 : 0.01);
 
   // delay for the action to take place
   wb_robot_step(TIME_STEP * 10);
@@ -66,11 +66,15 @@ int main(int argc, char **argv) {
   wb_robot_step(TIME_STEP * 50);
   move_to_position(1);
   wb_robot_step(TIME_STEP * 50);
+  move_to_position(2);
+  wb_robot_step(TIME_STEP * 50);
+  move_to_position(3);
+  wb_robot_step(TIME_STEP * 50);
   move_to_position(0);
   wb_robot_step(TIME_STEP * 50);
   hand_control(OPEN_HAND);
   wb_robot_step(TIME_STEP * 50);
-  move_to_position(2);
+  move_to_position(4);
   wb_robot_step(TIME_STEP * 50);
   
   wb_robot_cleanup();
