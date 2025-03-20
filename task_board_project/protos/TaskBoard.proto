@@ -845,232 +845,7 @@ PROTO TaskBoard [
             rotation -1.000000 0.000000 0.000000 1.570796
             name "task_board_banana_pug_hole"
             boundingObject Group {
-              children [
-                Pose {
-                  translation 0.005797 -0.000001 -0.011750
-                  rotation -0.000331 -0.000331 1.000000 1.570796
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.005686 0.001130 -0.011750
-                  rotation -0.000272 -0.000331 1.000000 1.767146
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.005356 0.002218 -0.011750
-                  rotation -0.000221 -0.000331 1.000000 1.963495
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.004820 0.003220 -0.011750
-                  rotation -0.000177 -0.000331 1.000000 2.159846
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.004099 0.004098 -0.011750
-                  rotation -0.000137 -0.000331 1.000000 2.356193
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.003221 0.004819 -0.011750
-                  rotation -0.000101 -0.000331 1.000000 2.552545
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.002219 0.005355 -0.011750
-                  rotation -0.000066 -0.000331 1.000000 2.748893
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.001132 0.005685 -0.011750
-                  rotation -0.000033 -0.000331 1.000000 2.945243
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.000001 0.005797 -0.011750
-                  rotation 0.000000 -0.000331 1.000000 3.141593
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.001130 0.005686 -0.011750
-                  rotation -0.000033 0.000331 -1.000000 2.945243
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.002218 0.005356 -0.011750
-                  rotation -0.000066 0.000331 -1.000000 2.748893
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.003220 0.004820 -0.011750
-                  rotation -0.000101 0.000331 -1.000000 2.552545
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.004098 0.004099 -0.011750
-                  rotation -0.000137 0.000331 -1.000000 2.356193
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.004819 0.003221 -0.011750
-                  rotation -0.000177 0.000331 -1.000000 2.159846
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.005355 0.002219 -0.011750
-                  rotation -0.000221 0.000331 -1.000000 1.963495
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.005685 0.001132 -0.011750
-                  rotation -0.000272 0.000331 -1.000000 1.767146
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.005797 0.000001 -0.011750
-                  rotation -0.000331 0.000331 -1.000000 1.570796
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.005686 -0.001130 -0.011750
-                  rotation -0.000404 0.000331 -1.000000 1.374447
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.005356 -0.002218 -0.011750
-                  rotation -0.000496 0.000331 -1.000000 1.178098
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.004820 -0.003220 -0.011750
-                  rotation -0.000620 0.000331 -1.000000 0.981747
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.004099 -0.004098 -0.011750
-                  rotation -0.000800 0.000331 -1.000000 0.785400
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.003221 -0.004819 -0.011750
-                  rotation -0.001092 0.000331 -0.999999 0.589048
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.002219 -0.005355 -0.011750
-                  rotation -0.001666 0.000331 -0.999999 0.392700
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.001132 -0.005685 -0.011750
-                  rotation -0.003364 0.000331 -0.999994 0.196351
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation -0.000001 -0.005797 -0.011750
-                  rotation -1.000000 0.000000 0.000000 0.000663
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.001130 -0.005686 -0.011750
-                  rotation -0.003364 -0.000331 0.999994 0.196351
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.002218 -0.005356 -0.011750
-                  rotation -0.001666 -0.000331 0.999999 0.392700
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.003220 -0.004820 -0.011750
-                  rotation -0.001092 -0.000331 0.999999 0.589048
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.004098 -0.004099 -0.011750
-                  rotation -0.000800 -0.000331 1.000000 0.785400
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.004819 -0.003221 -0.011750
-                  rotation -0.000620 -0.000331 1.000000 0.981747
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.005355 -0.002219 -0.011750
-                  rotation -0.000496 -0.000331 1.000000 1.178098
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-                Pose {
-                  translation 0.005685 -0.001132 -0.011750
-                  rotation -0.000404 -0.000331 1.000000 1.374447
-                  children [
-                    USE UCX_TaskBoardHoleSide_001
-                  ]
-                }
-              ]
+              children []
             }
             physics Physics {
               density -1
@@ -1085,62 +860,7 @@ PROTO TaskBoard [
         ]
         name "task_board_banana_pug_port"
         boundingObject Group {
-          children [
-            Pose {
-              translation -0.000000 -0.000217 0.007375
-              rotation 0.577455 -0.577121 0.577475 2.094709
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_001 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_001.stl"
-                }
-              ]
-            }
-            Pose {
-              translation 0.000001 -0.000211 -0.011875
-              rotation 0.576630 -0.578786 0.576632 2.092182
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_002 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_002.stl"
-                }
-              ]
-            }
-            Pose {
-              translation 0.000001 -0.020219 -0.004500
-              rotation 0.000001 -0.000035 1.000000 1.574742
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_003 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_003.stl"
-                }
-              ]
-            }
-            Pose {
-              translation 0.000002 0.015237 -0.016000
-              rotation -0.707107 -0.000166 -0.707107 3.141261
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_004 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_004.stl"
-                }
-              ]
-            }
-            Pose {
-              translation -0.007375 -0.000219 0.000000
-              rotation 1.000000 0.000032 0.000032 1.570796
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_005 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_005.stl"
-                }
-              ]
-            }
-            Pose {
-              translation 0.007375 -0.000214 -0.000001
-              rotation 1.000000 -0.000027 -0.000027 1.570489
-              children [
-                DEF UCX_TaskBoardBananaPlugPort_006 Mesh {
-                  url "UCX_TaskBoardBananaPlugPort_006.stl"
-                }
-              ]
-            }
-          ]
+          children []
         }
         physics Physics {
           density -1
@@ -1329,7 +1049,7 @@ PROTO TaskBoard [
       HingeJoint {
         jointParameters HingeJointParameters {
           anchor -0.047284 -0.032333 -0.000802
-          staticFriction 0.2
+          staticFriction 0.05
         }
         device [
           PositionSensor {
@@ -1400,7 +1120,7 @@ PROTO TaskBoard [
               }
               physics Physics {
                 density -1
-                mass 0.002844
+                mass 0.0001
                 centerOfMass [ -0.000003 -0.000007 0.000627 ]
                 inertiaMatrix [
                   8.164399e-08 8.163024e-08 4.316804e-08
@@ -1414,14 +1134,14 @@ PROTO TaskBoard [
             translation -0.000000 0.045503 0.008875
             rotation -0.707067 0.010652 -0.707067 3.120289
             children [
-              DEF UCX_TaskBoardLid_001 Mesh {
-                url "UCX_TaskBoardLid_001.stl"
+              Box {
+                size 0.0035 0.083 0.083
               }
             ]
           }
           physics Physics {
             density -1
-            mass 0.108600
+            mass 0.001
             centerOfMass [ 0.000003 0.037636 0.007401 ]
             inertiaMatrix [
               6.129347e-05 1.270585e-04 6.729799e-05
