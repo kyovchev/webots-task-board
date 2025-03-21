@@ -824,6 +824,12 @@ PROTO TaskBoard [
       Solid {
         translation -0.101844 -0.043016 0.019000
         children [
+          DistanceSensor {
+            translation 0.000000 0.010000 0.002000
+            rotation 0.000000 1.000000 0.000000 1.570796
+            type "sonar"
+            name "holder_distance_sensor"
+          }
           Pose {
             translation 0.000016 -0.005466 -0.004298
             rotation 0.999986 -0.004209 0.003173 1.374831
